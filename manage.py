@@ -2,6 +2,7 @@ import requests
 import re
 import datetime
 import time
+import random
 import base64
 import openpyxl
 from lxml import etree
@@ -13,8 +14,28 @@ from yubiao.code import code_testing
 url = 'https://www.jianyu360.com/jylab/supsearch/index.html'
 
 
-# name_text = input("请输入你需要的搜索的内容:")
-name_text = '政府网站'
+cookie = 'SESSIONID=3d9fbf3571714f944a61b829e9acb413752e7635; SESSIONID=3d9fbf3571714f944a61b829e9acb413752e7635; UM_distinctid=17854bcb602e2-029a508fcb35f2-5771031-1fa400-17854bcb6037bb; selectNum=1; Hm_lvt_72331746d85dcac3dac65202d103e5d9=1616499770,1616506184,1616548488,1616558093; CNZZDATA1261815924=389284313-1616326663-https%253A%252F%252Fwww.jianyu360.com%252F%7C1616570492; Hm_lpvt_72331746d85dcac3dac65202d103e5d9=1616575539; userid_secure=DhGGAo8oDEE784zQk1CEbXt4l79A8FCtWyEBsPfUTdM3VfaFTX6kPDCJqkFEYm1H82RNcN1EBahC7DhrTrd4n2eaOgeeyLjynbYk7dtbJZaauZ1h9+MBSB9qOYuDMAHi9U6EVq1cq4csEBtNbspE5jkli6mWUfzZ/27OZIlZTJ3A+p/j67k7HrYQsq82uo7C+L46Fjwg0i1U+1QDXdIiYLe8rhPik8FKDTq18uzf/3V7oNmuwhU3Y6kz9T8zVjadHXKiOX66JQqQ3i+NtPd3RMfBs8scS5N97RFTdoziuMg5/LwIiYISgxy1Uk/r4Y3CWtJb5O5B34i/tkV+1e2skyoqKjIwMjEtMDMtMjEgMDA6MDA6MDA='
+
+# session = requests.Session()
+# session.get(url="http://www.xiladaili.com")
+# # 去代理商获取url
+# response = session.get(
+#     url='http://www.xiladaili.com/api/?uuid=9e2ed14b846a4d28ad3afb8442916f54&num=6&place=中国&protocol=2&port=80&sortby=0&repeat=1&format=3&position=1')
+# a = response.text
+# ip_list = a.split(' ')  # 代理ip列表
+# print(ip_list)
+
+
+
+
+
+
+
+name_text = input("请输入你需要的搜索的内容:")
+# name_text = '乡村振兴规划编制'
+
+
+
 
 
 def excel_start():
@@ -25,7 +46,8 @@ def excel_start():
     wb.save('./yubiao_excel/{}.xlsx'.format(name_text))
     wb.close()
 
-excel_start()
+
+
 
 # excel表处理
 def excel_wirte(list):
@@ -54,15 +76,15 @@ def qwq(q):
     else:
         return q[0]
 
-
+num_c = 0
 # 数据处理
 def data_handle(url_str_list):
-    num = 0
+    global num_c
     for i in url_str_list:
-        print(i)
-        num += 1
+
+        num_c += 1
         txt = []
-        txt.append(num)                                         # 序号
+        txt.append(num_c)                                         # 序号
         if 'area' not in i:
             i['area'] = ' '
         txt.append(i['area'])                        # 省份
@@ -82,7 +104,7 @@ def data_handle(url_str_list):
 
         # i['_id'] = 'ABCY1wIcj0%2FIDk7Ent4cAcOMzAZCSdgZnx1KS8FJi8Nd2BzfAVUCRQ%3D'
         url = 'https://www.jianyu360.com/article/content/{}.html'.format(i['_id'])
-        page_text = requests.get(url=url, headers=headers).text
+        page_text = requests.get(url=url, headers=headers,).text
         try:
 
             a = re.findall(r'<div>请在下图依次点击：<span>(.*?)</span></div>',page_text)
@@ -91,7 +113,7 @@ def data_handle(url_str_list):
                 raise
         except:
             print('错了错了错了错了错了错了错了错了错了错了错了错了错了错了错了错了错了错了错了错了错了错了错了错了')
-            print(page_text)
+            # print(page_text)
             code_testing()
             page_text = requests.get(url=url, headers=headers).text
 
@@ -112,10 +134,13 @@ def data_handle(url_str_list):
         txt.append(qwq(projectname_))                           # 项目名称
 
         txt.append(url)                                         # 剑鱼标讯地址
-        # print(url)
         print(txt)
+        # print(url)
+        print('数据保存中******')
+
+
         excel_wirte(txt)
-        # time.sleep(1)
+        time.sleep(10)
 
 
 
@@ -130,7 +155,7 @@ headers = {
 "accept-encoding": "gzip, deflate, br",
 "accept-language": "zh-CN,zh;q=0.9,en;q=0.8,ar;q=0.7",
 "cache-control": "max-age=0",
-"cookie": "SESSIONID=4d6ff248c631545c279b79733d2eabf9f0d9a9ed; SESSIONID=4d6ff248c631545c279b79733d2eabf9f0d9a9ed; Hm_lvt_72331746d85dcac3dac65202d103e5d9=1616258832; UM_distinctid=1785088e191c63-0239b7757710ed-5771031-1fa400-1785088e19258b; CNZZDATA1261815924=207312057-1616255298-https%253A%252F%252Fwww.jianyu360.com%252F%7C1616260709; selectNum=1; Hm_lpvt_72331746d85dcac3dac65202d103e5d9=1616265574; userid_secure=EGmHolQTkYAHGTk4JSN0RFXJCg822NW0yCLGzttuXWZktMfNu12fHd2b2Ckviiu3MvyNv8MtVBT1DWrMGLwMTEuPSrcDptrqLgi7SCQ/3TWPHHOSCaa0BYwvTRf1T/0Wt2psM6rRCKzdnb5RfJOOmPJn8WNXNUVp+PjeGWTT45zHUj3k9yl7BL4q7t3OQ+QuA4+m46/o7jCHTlIn/34OVAQsUclyKWUjZKyqp6I3fN+h/UsNBX6CIZ/VBrTDZkyQCRe00j7Rpbl04wbMpP51uj4ufiEmoJ6vTJtn6OEQ3o9dyOlDLD/zb1f8T0gBnuJNB7U9+acyRQTS2hZz7ejJLSoqKjIwMjEtMDMtMjEgMDA6MDA6MDA=",
+"cookie": cookie,
 "sec-ch-ua": '"Google Chrome";v="89", "Chromium";v="89", ";Not A Brand";v="99"',
 "sec-ch-ua-mobile": '?0',
 "sec-fetch-dest": "document",
@@ -144,14 +169,20 @@ headers = {
 
 data_start = {                        # 搜素的数据量小于等于两页 用此data           默认使用，首次搜索比用此data
     "keywords": name_text,
-    "publishtime": "",
-    "timeslot": "",
+    "publishtime": '',
+    "timeslot": '',
     "area": "",
     "subtype":"" ,
     "minprice": "",
     'maxprice': "",
     'industry': "",
     'selectType': 'title',
+
+
+
+
+
+
 }
 
 
@@ -160,6 +191,7 @@ page = requests.post(url=url,headers=headers,data=data_start).text
 # print(page+'*******************************************************')
 data_str2 = re.findall(r'secondList = \[(.*?)\r\nif', page)                 # 从混淆代码中获取对应的数据  获取第二页数据
 if data_str2:                                                               # 判断是否有分页
+    excel_start()
     """
     此网站获取的数据量小于或等于一百会直接把数据发生完，为此不需要去获取分页信息
     """
@@ -169,6 +201,7 @@ if data_str2:                                                               # �
 
     data_str2 = re.findall(r'secondList = \[(.*?)\r\nif', page)             # 从混淆代码中获取对应的数据
 
+
     data_list2 = eval('['+data_str2[0].replace("]']",']'))[0:50]            # 第二页数据
 
     data_list = data_list+data_list2                                        # 合并数据
@@ -177,69 +210,134 @@ if data_str2:                                                               # �
     data_handle(data_list)
 
 else:
+    # print('qwq')
+
+    while True:
+        try:
+            start_time = input("请输入开始时间,时间格式为 (2020-02-02):")
+            start_time = start_time + ' 00:00:00'
+            timeArray = time.strptime(start_time, "%Y-%m-%d %H:%M:%S")
+            start_time = int(time.mktime(timeArray))
+
+            end_time = input("请输入结束时间,时间格式为 (2020-02-20):")
+            end_time = end_time + ' 23:59:59'
+            # print(end_time)
+            timeArray = time.strptime(end_time, "%Y-%m-%d %H:%M:%S")
+            end_time = int(time.mktime(timeArray))
+
+            publishtime = str(start_time) + "_" + str(end_time)
+            break
+        except:
+            print('时间格式错误！')
+
 
     txt = []
-    co = code_testing()                                                 # 判断是不是检测
+    co = code_testing()
+
+
+    # 判断是不是检测
     # if co == 'ok':
     page = requests.post(url=url, headers=headers, data=data_start).text
-
+    #
+    #
+    # # print(page)
     data_str = re.findall(r'var list = \[(.*?)]:"";', page)  # 从混淆代码中获取对应的数据
-
+    # print(data_str)
+    #
     if "]!=null?[" not in data_str:                         # 判断是否有内容
-        data_list = eval('[' + data_str[0].replace(']!=null?[', ',') + ']')[0:50]  # 第一页数据
-        # for i in data_list:
-        #     print(i)
-        # print(len(data_list))
-        txt += data_list
+    #
+        excel_start()
+    #     # print('qwq1111')
+    #     data_list = eval('[' + data_str[0].replace(']!=null?[', ',') + ']')  # 第一页数据
+    #     # print(data_list)
+    #     num_len = len(data_list)/2
+    #     data_list = data_list[0:int(num_len)]
+    #     # print(data_list)
+    #     # for i in data_list:
+    #     #     print(i)
+    #     # print(len(data_list))
+    #     txt += data_list
         sign = True
         num = 1
         while sign:
-            num += 1
+            # print(qwq)
+
             data_add = {  # 搜素的数据量超过两页 用此data                 跳转页数使用
                 "pageNumber": num,
                 "reqType": "bidSearch",
                 "searchvalue": name_text,
                 "area": "",
                 "subtype": "",
-                "publishtime": "",
+                "publishtime": publishtime,
                 'selectType': 'title',
                 "minprice": "",
                 'maxprice': "",
                 'industry': "",
                 "tabularflag": "Y",
             }
+            num += 1
             time.sleep(1)
 
             try:
-                print('qwq')
+
                 page = requests.post(url='https://www.jianyu360.com/front/pcAjaxReq', headers=headers,
                                      data=data_add)
-                print(page.text)
+                # print(page.text)
                 a = re.findall(r'<div>请在下图依次点击：<span>(.*?)</span></div>', page.text)
                 page = page.json()
                 # break
 
-
-                print(a)
+                if a:
+                    print(a)
                 if len(a) > 0:
                     raise 1
             except:
-                print('错了错了错了错了错了错了错了错了错了错了错了错了错了错了错了错了错了错了错了错了错了错了错了错了')
+                print('遇到验证码了******************')
                 code_testing()
-                page = requests.post(url='https://www.jianyu360.com/front/pcAjaxReq', headers=headers, data=data_add).json()
+                ci = 0
+                while True:
+
+                    try:
+                        page = requests.post(url='https://www.jianyu360.com/front/pcAjaxReq', headers=headers, data=data_add).json()
+
+                        break
+                    except:
+
+                        code_testing()# 人居环境 2021-02-
+                        if ci == 5:
+                            print('账号被封禁！ 换账号吧！')
+                            # break
+                        ci += 1
+
                 # print(page.text)
-                print(page.json())
+                # print(page.json())
                 # page = page.json()
             data_list = page['list']
             if page['list'] in txt:
                 break
+            try:
+                txt += page['list']
+                print("获取分页链接数据:",len((txt)))
+                if len(txt) >= 200 and len(txt) % 200 == 0:
+                    judge = input("是否终止获取页面？不终止任意输入 输入 y 终止:")
+                    if judge == 'y' or judge == 'Y':
+                        print('qwq')
 
-            txt += page['list']
-            # print(txt)
-            print(len((txt)))
-            break
+                        sign = False
+
+                # data_handle(txt)
+
+                time.sleep(1)
+            except:
+                print('获取完成！')
+                break
+        print(len(txt),"条数据")
+        print("跳转到子页面获取数据.....")
+
         data_handle(txt)
+            # print(txt)
 
+            # break
     else:
         print("抱歉没有内容！")
 
