@@ -1,10 +1,11 @@
 # -*- mode: python ; coding: utf-8 -*-
 
+
 block_cipher = None
 
 
 a = Analysis(['manage.py'],
-             pathex=['C:\\pythonProject\\jianyubiaoxun'],
+             pathex=['C:\\Users\\lixin_data\\Desktop\\应用文件夹\\jianyubiaoxun'],
              binaries=[],
              datas=[],
              hiddenimports=[],
@@ -30,4 +31,4 @@ exe = EXE(pyz,
           upx=True,
           upx_exclude=[],
           runtime_tmpdir=None,
-          console=True )
+          console=True , icon='favicon.ico')

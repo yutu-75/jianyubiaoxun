@@ -1,11 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ba28a2ee-edde-4946-a586-7781a01d31c0" name="Default Changelist" comment="" />
+    <list default="true" id="ba28a2ee-edde-4946-a586-7781a01d31c0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twisted-20.3.0-cp39-cp39-win_amd64.whl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordcloud-1.8.1-cp39-cp39-win_amd64.whl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/write_cookies.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jianyubiaoxun.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jianyubiaoxun.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/manage/Analysis-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/manage/Analysis-00.toc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/manage/EXE-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/manage/EXE-00.toc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/manage/PKG-00.pkg" beforeDir="false" afterPath="$PROJECT_DIR$/build/manage/PKG-00.pkg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/manage/PKG-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/manage/PKG-00.toc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/manage/PYZ-00.pyz" beforeDir="false" afterPath="$PROJECT_DIR$/build/manage/PYZ-00.pyz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/manage/PYZ-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/manage/PYZ-00.toc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/manage/base_library.zip" beforeDir="false" afterPath="$PROJECT_DIR$/build/manage/base_library.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/manage/warn-manage.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/manage/warn-manage.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/manage/xref-manage.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/manage/xref-manage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cookie.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cookie.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/manage.exe" beforeDir="false" afterPath="$PROJECT_DIR$/dist/manage.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello.spec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage.spec" beforeDir="false" afterPath="$PROJECT_DIR$/manage.spec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_text.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/text.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yubiao/chaojiying.py" beforeDir="false" afterPath="$PROJECT_DIR$/yubiao/chaojiying.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yubiao/img/code.png" beforeDir="false" afterPath="$PROJECT_DIR$/yubiao/img/code.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yubiao/img/vertical.png" beforeDir="false" afterPath="$PROJECT_DIR$/yubiao/img/vertical.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yubiao/img/wj.png" beforeDir="false" afterPath="$PROJECT_DIR$/yubiao/img/wj.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yubiao_excel/乡村振兴.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/yubiao_excel/乡村振兴.xlsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1q9aZ4aZIY43xFFbcMaNI44jP8A" />
   <component name="ProjectViewState">
@@ -15,8 +60,119 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\lixin_data\Desktop\应用文件夹\jianyubiaoxun" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.manage">
+    <configuration name="manage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="jianyubiaoxun" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="qwqssss" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="jianyubiaoxun" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/qwqssss.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="text" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="jianyubiaoxun" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/text.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="write_cookies" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="jianyubiaoxun" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/write_cookies.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.manage" />
+        <item itemvalue="Python.qwqssss" />
+        <item itemvalue="Python.text" />
+        <item itemvalue="Python.write_cookies" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -27,10 +183,31 @@
       <option name="presentableId" value="Default" />
       <updated>1616494311350</updated>
       <workItem from="1616494312408" duration="11000" />
+      <workItem from="1618200400409" duration="1382000" />
+      <workItem from="1623308771209" duration="8371000" />
+      <workItem from="1623371968850" duration="15329000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/jianyubiaoxun$write_cookies.coverage" NAME="write_cookies Coverage Results" MODIFIED="1623311988439" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/jianyubiaoxun$text.coverage" NAME="text Coverage Results" MODIFIED="1623376078484" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/jianyubiaoxun$qwqssss.coverage" NAME="qwqssss Coverage Results" MODIFIED="1623386273681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/jianyubiaoxun$manage.coverage" NAME="manage Coverage Results" MODIFIED="1623386556615" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

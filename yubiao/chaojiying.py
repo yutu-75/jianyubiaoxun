@@ -60,7 +60,7 @@ def transdform_code_img(img_path,img_type):
 
 def main():
     chaojiying = Chaojiying_Client('yutu75', '395243043y', '913618')	#用户中心>>软件ID 生成一个替换 96001
-    im = open('img/wj.png', 'rb').read()													#本地图片文件路径 来替换 a.jpg 有时WIN系统须要//
+    im = open('./yubiao/img/wj.png', 'rb').read()													#本地图片文件路径 来替换 a.jpg 有时WIN系统须要//
     antiVerifyCheck = chaojiying.PostPic(im, 9103)['pic_str'].replace('|',",")
     # print(antiVerifyCheck)
     antiVerifyCheck=antiVerifyCheck.split(',')
