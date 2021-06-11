@@ -1,39 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ba28a2ee-edde-4946-a586-7781a01d31c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Twisted-20.3.0-cp39-cp39-win_amd64.whl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wordcloud-1.8.1-cp39-cp39-win_amd64.whl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/write_cookies.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jianyubiaoxun.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jianyubiaoxun.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/manage/Analysis-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/manage/Analysis-00.toc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/manage/EXE-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/manage/EXE-00.toc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/manage/PKG-00.pkg" beforeDir="false" afterPath="$PROJECT_DIR$/build/manage/PKG-00.pkg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/manage/PKG-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/manage/PKG-00.toc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/manage/PYZ-00.pyz" beforeDir="false" afterPath="$PROJECT_DIR$/build/manage/PYZ-00.pyz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/manage/PYZ-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/manage/PYZ-00.toc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/manage/base_library.zip" beforeDir="false" afterPath="$PROJECT_DIR$/build/manage/base_library.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/manage/warn-manage.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/manage/warn-manage.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/manage/xref-manage.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/manage/xref-manage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cookie.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cookie.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/manage.exe" beforeDir="false" afterPath="$PROJECT_DIR$/dist/manage.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello.spec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage.spec" beforeDir="false" afterPath="$PROJECT_DIR$/manage.spec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page_text.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/text.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yubiao/chaojiying.py" beforeDir="false" afterPath="$PROJECT_DIR$/yubiao/chaojiying.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yubiao/img/code.png" beforeDir="false" afterPath="$PROJECT_DIR$/yubiao/img/code.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yubiao/img/vertical.png" beforeDir="false" afterPath="$PROJECT_DIR$/yubiao/img/vertical.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yubiao/img/wj.png" beforeDir="false" afterPath="$PROJECT_DIR$/yubiao/img/wj.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yubiao_excel/乡村振兴.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/yubiao_excel/乡村振兴.xlsx" afterDir="false" />
-    </list>
+    <list default="true" id="ba28a2ee-edde-4946-a586-7781a01d31c0" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -185,7 +153,7 @@
       <workItem from="1616494312408" duration="11000" />
       <workItem from="1618200400409" duration="1382000" />
       <workItem from="1623308771209" duration="8371000" />
-      <workItem from="1623371968850" duration="15329000" />
+      <workItem from="1623371968850" duration="15669000" />
     </task>
     <servers />
   </component>
