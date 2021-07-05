@@ -162,6 +162,7 @@ class jianyu:
 
                 publishtime = str(start_time) + "_" + str(end_time)
                 print(publishtime)
+                break
             except:
                 print('输入错误！')
 
