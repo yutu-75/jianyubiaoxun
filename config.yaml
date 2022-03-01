@@ -1,0 +1,37 @@
+# 注意事项:
+#  ':'  后面必须有个空格
+#   右边 '#' 后面是参数注释
+
+
+config:
+  # 发布时间设置:
+  # thisyear lately-30 lately-7
+  # 为空就是全部
+  publishtime: lately-7             # thisyear(表示一年内)   lately-30(表示30天内)    lately-7(表示七天内)
+
+  # 项目地区:
+  # 安徽 澳门 北京 重庆 福建 广东 广西 贵州 甘肃 河北 湖北 黑龙江 海南 河南 湖南 吉林
+  # 江苏 江西 辽宁 内蒙古 宁夏 青海 山西 陕西 上海 山东 四川 天津 台湾 西藏 新疆 香港 云南 浙江
+  # 为空就是全国
+  area: ""
+
+  # 项目金额区间:
+  minprice: ""                     # 最小金额
+  maxprice: ""                     # 最大金额
+
+  # 搜索文本关键字
+  searchvalue: qwq
+
+  # 搜索的起始页
+  pageNumber: 1
+
+
+  reqType: bidSearch
+  subtype: ''
+  selectType: content,title
+  industry: ""
+  tabularflag: Y
+  buyerclass: ""
+  buyertel: ""
+  winnertel: ""
+  notkey: ""
